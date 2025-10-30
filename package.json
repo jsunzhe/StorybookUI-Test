@@ -1,0 +1,35 @@
+{
+  "name": "storybookui-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsunzhe/StorybookUI-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsunzhe/StorybookUI-Test/issues"
+  },
+  "homepage": "https://github.com/jsunzhe/StorybookUI-Test#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-a11y": "^10.0.2",
+    "@storybook/addon-docs": "^10.0.2",
+    "@storybook/addon-vitest": "^10.0.2",
+    "@storybook/react-vite": "^10.0.2",
+    "prop-types": "^15.8.1",
+    "storybook": "^10.0.2",
+    "vitest": "^4.0.5",
+    "playwright": "^1.56.1",
+    "@vitest/browser-playwright": "^4.0.5",
+    "@vitest/coverage-v8": "^4.0.5"
+  }
+}
